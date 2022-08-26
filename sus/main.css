@@ -1,0 +1,30 @@
+#sus {
+    display: none;
+}
+#sus:target {
+    display: block;
+}
+
+#h:link {
+    text-decoration: none;
+    color: black;
+    cursor: initial;
+}
+
+#h:visited {
+    text-decoration: none;
+    color: black;  
+    cursor: initial;
+}
+
+#h:hover {
+    text-decoration: none;
+    color: black;
+    cursor: initial;
+}
+
+#h:active {
+    text-decoration: none;
+    color: black;
+    cursor: initial;
+}
