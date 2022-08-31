@@ -1,8 +1,6 @@
 from browser import document
 from browser.widgets.dialog import InfoDialog
 
-c = 0
-
 def click(ev):
     if document['zone'].value == '':
         InfoDialog('Hey!', 'Please remember to enter a name!')
@@ -11,7 +9,7 @@ def click(ev):
     else:
         InfoDialog('Hi!', f'Hello, {document["zone"].value}!')
 
-def redirect(e, c):
+def redirect(ev):
     c += 1
     document['count'] <= c + ' / 3'
     if c == 3:
