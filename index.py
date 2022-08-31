@@ -10,8 +10,8 @@ def click(ev):
         InfoDialog('Hi!', f'Hello, {document["zone"].value}!')
 
 def redirect(ev):
-    document.location = 'https://superboi211.github.io'
+    document.location = 'https://superboi211.github.io/sus'
 
 # bind event 'click' on button to function echo
 document['echo'].bind('click', click)
-document['AAAAA'].bind('click', redirect)
+document['AAAAA '].bind('click', redirect)
