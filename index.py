@@ -1,7 +1,11 @@
 from browser import document
 from browser.widgets.dialog import InfoDialog
 
-c = 0
+def pls_work():
+    global c
+    c = 0
+
+pls_work()
 
 def click(ev):
     if document['zone'].value == '':
