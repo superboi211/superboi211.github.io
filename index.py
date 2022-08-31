@@ -14,4 +14,4 @@ def redirect(ev):
 
 # bind event 'click' on button to function echo
 document['echo'].bind('click', click)
-document['btnRedirect'].bind('click', redirect)
+document['AAAAA'].bind('click', redirect)
