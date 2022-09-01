@@ -1,16 +1,15 @@
 from browser import document
 from browser.widgets.dialog import InfoDialog
 
-test = int(0)
-
 def click(ev):
+    test = int(0)
+    test += 1
     if document['zone'].value == '':
         InfoDialog('Hey!', 'Please remember to enter a name!')
     elif document['zone'].value == 'sus':
         InfoDialog('Bruh...', f'You\'re {document["zone"].value}!')
     else:
         InfoDialog('Hi!', f'Hello, {document["zone"].value}!')
-    test += 1
 
 def redirect(ev):
     document.location = 'https://superboi211.github.io/sus'
