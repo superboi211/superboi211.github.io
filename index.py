@@ -10,10 +10,7 @@ def click(ev):
         InfoDialog('Hi!', f'Hello, {document["zone"].value}!')
 
 def redirect(ev):
-    c += 1
-    document['count'] <= c + ' / 3'
-    if c == 3:
-        document.location = 'https://superboi211.github.io/sus'
+    document.location = 'https://superboi211.github.io/sus'
 
 # bind event 'click' on button to function echo
 document['echo'].bind('click', click)
