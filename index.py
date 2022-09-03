@@ -2,7 +2,6 @@ from browser import document
 from browser.widgets.dialog import InfoDialog
 
 def click(ev):
-    test += 1
     if document['zone'].value == '':
         InfoDialog('Hey!', 'Please remember to enter a name!')
     elif document['zone'].value == 'sus':
