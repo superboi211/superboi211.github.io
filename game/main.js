@@ -7,6 +7,7 @@ kaboom();
 
 // load assets
 loadSprite("character", "character.png");
+loadSprite("character_jump", "character_jump.png")
 loadSound("jump", "jump.ogg")
 
 scene("game", () => {
@@ -38,6 +39,9 @@ scene("game", () => {
         if (player.isGrounded()) {
             player.jump(JUMP_FORCE);
             play("jump")
+        }
+        else {
+            player.play("character_jump")
         }
     }
 
