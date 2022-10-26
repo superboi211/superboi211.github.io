@@ -36,12 +36,13 @@ scene("game", () => {
     ]);
 
     function jump() {
-        if (player.isGrounded()) {
+        if (player.isGrounded() && isKeyDown("space")) {
             player.jump(JUMP_FORCE);
             play("jump")
-        }
-        else {
             player.play("character_jump")
+        }
+        else if (player.isGrounded() && isKeyDown("space") != true) {
+
         }
     }
 
