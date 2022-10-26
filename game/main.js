@@ -39,10 +39,7 @@ scene("game", () => {
         if (player.isGrounded() && isKeyDown("space")) {
             player.jump(JUMP_FORCE);
             play("jump")
-            player.play("character_jump")
-        }
-        else if (player.isGrounded() && isKeyDown("space") != true) {
-
+            player.use(sprite("character_jump"))
         }
     }
 
