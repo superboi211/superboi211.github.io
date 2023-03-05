@@ -6,7 +6,7 @@ html {
 }
 
 @font-face {
-    font-family: "FarifaxHD";
+    font-family: "LinjaPona";
     src: url("https://superboi211.github.io/sitelenpona/linja-pona-4.otf/");
 }
 
@@ -24,6 +24,6 @@ body {
 }
 
 .sitelenPona {
-    font-family: "FarifaxHD";
+    font-family: "LinjaPona";
     font-size: 20px;
 }
