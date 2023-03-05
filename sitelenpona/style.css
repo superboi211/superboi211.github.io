@@ -7,7 +7,11 @@ html {
 
 @font-face {
     font-family: "LinjaPona";
-    src: url("https://superboi211.github.io/sitelenpona/linja-pona-4.otf/");
+    src: url('https://superboi211.github.io/sitelenpona/linja-pona-4.eot'); /* IE9 Compat Modes */
+    src: url('https://superboi211.github.io/sitelenpona/linja-pona-4.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('https://superboi211.github.io/sitelenpona/linja-pona-4.woff') format('woff'), /* Modern Browsers */
+    url('https://superboi211.github.io/sitelenpona/linja-pona-4.ttf')  format('truetype'), /* Safari, Android, iOS */
+    url('https://superboi211.github.io/sitelenpona/linja-pona-4.svg#svgFontName') format('svg'); /* Legacy iOS */
 }
 
 body {
