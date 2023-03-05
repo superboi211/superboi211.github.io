@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata&display=swap');
+
+html {
+  height: 100%;
+  width: 100%;
+}
+
+@font-face {
+ font-family: "FarifaxHD";
+ src: url("https://tokiponablog.aeronaman.repl.co/linja-sike-4.9.otf");
+}
+
+body {
+	font-family: "Inconsolata"
+}
+
+.darkMode {
+  background-color: black;
+  color: white;
+}
+
+.sitelenPona {
+ font-family: "FarifaxHD";
+ font-size: 20px;
+}
